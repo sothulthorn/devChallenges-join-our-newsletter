@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Join Our Newsletter | devChallenges.io</title>
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sora:wght@100..800&display=swap');
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #f9fafb;
+      }
+
+      .hero {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .container {
+        max-width: 750px;
+        margin: 0 auto;
+        padding: 24px;
+        text-align: center;
+      }
+
+      .container img {
+        margin-bottom: 24px;
+      }
+
+      .container h1 {
+        font-size: 42px;
+        font-weight: 600;
+        color: #000000;
+        margin-bottom: 16px;
+      }
+
+      .container > p {
+        font-size: 20px;
+        color: #6c727f;
+        margin-bottom: 32px;
+      }
+
+      .subscribe {
+        background-color: #ffffff;
+        padding: 24px;
+        border-radius: 16px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        align-items: stretch;
+        gap: 16px;
+        max-width: 500px;
+        margin: 0 auto;
+      }
+
+      .subscribe input {
+        width: 100%;
+        max-width: none;
+        padding: 12px 16px;
+        border: 1px solid #e5e7eb;
+        border-radius: 8px;
+        background-color: #f9fafb;
+        font-size: 16px;
+      }
+
+      .subscribe button {
+        width: 100%;
+        max-width: none;
+        padding: 12px 16px;
+        background-color: #284bce;
+        color: #ffffff;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      .subscribe p {
+        font-size: 12px;
+        color: #6c727f;
+        margin: 0;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="hero">
+      <div class="container">
+        <img src="./resources/logo.svg" alt="logo" />
+
+        <h1>Join our newsletter</h1>
+        <p>
+          Keep up with our latest collections, exclusive deals, and special
+          offers! We introduce a new collection every week, so stay tuned to
+          snag the hottest items just for you.
+        </p>
+
+        <div class="subscribe">
+          <input type="email" placeholder="Enter your email address" />
+          <button type="submit">Subscribe now</button>
+          <p>Your email is 100% confidential and won’t send you any spam.</p>
+        </div>
+      </div>
+    </main>
+
+    <div class="author-info">
+      Coded by <a href="https://github.com/sothulthorn">Sothul Thorn</a> |
+      Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
